@@ -1,10 +1,37 @@
 .App {
   font-family: Arial, sans-serif;
   min-height: 100vh;
+  background-color : #f5f6fa ;
+display : flex ;
+flex-direction : column ;
 }
 
 .contenu {
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
+  width : 100%;
+box-sizing : border-box ;
+flex : 1;
+}
+
+@media (max-width: 600px) {
+  .contenu {
+    padding: 12px;
+  }
+
+  .detail-ligne {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+  .ligne-bus {
+   width : 40 px ;
+   height : 40 px ;
+   font-size : 1 rem ;
+   margin-right : 12 px ;
+   padding: 10px 12px;
+  }
 }

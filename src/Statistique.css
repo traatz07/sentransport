@@ -1,0 +1,31 @@
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.stat-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.stat-nombre {
+  color: #0a6e31;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.stat-texte {
+  color: #7f8c8d;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
