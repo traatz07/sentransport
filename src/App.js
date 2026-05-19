@@ -137,15 +137,14 @@ return (
       <Header />
       <main className="contenu">
         <StatReseau lignes={lignes} />
-        <p> Nombre de recherches : {nbRecherches} </p>
+        
         <Recherche
           recherche={recherche}
           setRecherche={setRecherche}
           setNbRecherches={setNbRecherches}
        />
 
-  <p className="resultat-recherche"> </p>    
-
+  <p>Vous avez effectué {nbRecherches} recherche(s)</p>
         
 
 {lignesFiltrees.length === 0 && (
