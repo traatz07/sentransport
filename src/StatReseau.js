@@ -2,6 +2,11 @@ import './StatReseau.css';
 
 function StatReseau({ lignes }) {
 
+  if (lignes.length === 0) {
+
+    return <p>Chargement des statistiques...</p>;
+
+  }
   const totalLignes = lignes.length;
 
   const totalArrets = lignes.reduce(

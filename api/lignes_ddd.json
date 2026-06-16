@@ -2,6 +2,7 @@
   {
     "id": 1,
     "numero": "1",
+    "couleur": "#2ecc71",
     "depart": "Parcelles Assainies",
     "arrivee": "Plateau",
     "arrets": 14,
@@ -17,6 +18,7 @@
   {
     "id": 2,
     "numero": "7",
+    "couleur": "#3498db",
     "depart": "Guediawaye",
     "arrivee": "Place Obelisque",
     "arrets": 18,
@@ -32,6 +34,7 @@
   {
     "id": 3,
     "numero": "15",
+    "couleur": "#e74c3c",
     "depart": "Pikine",
     "arrivee": "Medina",
     "arrets": 12,
@@ -47,6 +50,7 @@
   {
     "id": 4,
     "numero": "23",
+    "couleur": "#9b59b6",
     "depart": "Ouakam",
     "arrivee": "Grand Dakar",
     "arrets": 10,
@@ -62,6 +66,7 @@
   {
     "id": 5,
     "numero": "40",
+    "couleur": "#f1c40f",
     "depart": "Yoff",
     "arrivee": "Sandaga",
     "arrets": 16,
@@ -77,6 +82,7 @@
   {
     "id": 6,
     "numero": "12",
+    "couleur": "#e67e22",
     "depart": "Yoff",
     "arrivee": "Sandaga",
     "arrets": 11,
@@ -88,6 +94,37 @@
       "HLM",
       "Sandaga"
     ]
-  }
+  },
+
+  {
+  "id": 7,
+  "numero": "31",
+  "couleur": "#1abc9c",
+  "depart": "Keur Massar",
+  "arrivee": "Colobane",
+  "arrets": 15,
+  "listeArrets": [
+    "Keur Massar",
+    "Malika",
+    "Yeumbeul",
+    "Pikine",
+    "Colobane"
+  ]
+},
+{
+  "id": 8,
+  "numero": "55",
+  "couleur": "#34495e",
+  "depart": "Rufisque",
+  "arrivee": "Plateau",
+  "arrets": 20,
+  "listeArrets": [
+    "Rufisque",
+    "Bargny",
+    "Thiaroye",
+    "Hann",
+    "Plateau"
+  ]
+}
 ]
 

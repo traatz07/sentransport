@@ -3,7 +3,7 @@ import './ListeLignes.css';
 
 function ListeLignes({
   lignes,
-  setLigneSelectionnee,
+  chargerDetailsLigne,
   ligneSelectionnee
 }) {
 
@@ -23,7 +23,7 @@ function ListeLignes({
           arrivee={ligne.arrivee}
           arrets={ligne.arrets}
           couleur={ligne.couleur}
-          onClick={() => setLigneSelectionnee(ligne)}
+          onClick={() => chargerDetailsLigne(ligne.id)}
           active={ligneSelectionnee?.id === ligne.id}
         />
 
